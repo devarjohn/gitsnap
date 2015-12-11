@@ -19,7 +19,7 @@
 		
         function take_snapshot() {
             Webcam.snap( function(data_uri) {
-                document.getElementById('my_result').innerHTML = '<img src="'+data_uri+'"/>';
+                document.getElementById('my_result').innerHTML = '<img src="'+data_uri+'" height="300" width="300" />';
             } );
         }
     </script>
