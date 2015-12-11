@@ -24,7 +24,7 @@
         }
     </script>
 
-    <a href="javascript:void(take_snapshot())">Take Snapshot</a>
+    <button href="javascript:void(take_snapshot())">Take Snapshot</button>
 
 
 
